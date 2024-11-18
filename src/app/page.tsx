@@ -1,95 +1,34 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    <section className="py-5">
+      <div className="container px-4 px-lg-5 my-5">
+          <div className="row gx-4 gx-lg-5 align-items-center">
+              <div className="col-md-6">
+                <Image className="card-img-top mb-5 mb-md-0" src="/1.jpg" layout="responsive" width={600} height={700} alt="..." />
+              </div>
+              <div className="col-md-6">
+                  <div className="small mb-1"><a href="https://9lapakjp.fun">8.832.900 Penilaian</a></div>
+                <h1 className="display-5 fw-bolder">Link Alternatif Daftar Situs 9LAPAK Gacor Anti Rungkad</h1>
+                  <div className="fs-5 mb-5">
+                      <div className="deposit">Deposit Min. Rp.10.000</div>
+                  </div>
+                  <p className="lead">
+                  Segera ikut serta di SITUS 9 LAPAK LINK ALTERNATIF DAFTAR KE SITUS 9LAPAK dengan peluang menang yang sangat besar! Di sini, kamu dapatkan melimpah! game seru dengan peluang jp yang menguntungkan setiap magrib Jangan lewatkan keseruan dan jackpot-nya! Yuk daftar dan buktikan sendiri ketenarannya di SITUS 9 LAPAK LINK ALTERNATIF DAFTAR KE SITUS 9LAPAK
+                  </p>
+                  <div className="d-flex d-block d-lg-flex order-1">
+                      <Link href="https://9lapakjp.fun/register" className="button-regist">
+                          Daftar Akun VIP
+                      </Link>
+                      <Link href="https://9lapakjp.fun/login" className="button-login">
+                          LOGIN
+                      </Link>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
   );
 }
